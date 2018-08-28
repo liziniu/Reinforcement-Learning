@@ -6,11 +6,19 @@ However, we can refute that directly represent state can be redundant from the p
 
 Therefore, based on the generative model of markov transition model, we can abstract state from perspective of probability. Specifically, we can transfer probability state space into low-dimension Euclidean space, upon which close data can be clustered into single class. This is inspired by the [t-SNE](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf).
 
-![Loss Function](https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Loss%20Function.png)
+<div align="center">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Loss%20Function.png" height="200" width="400">
+  <p> Loss Function </p>
+</div>
 
 Here is an illustrative example with five states that transition probabilities are given. We can abstract these states into two new states.
-![State Abstraction](https://github.com/liziniu/Reinforcement-Learning/blob/master/lunarlander/pic/example.png)
+
+<div align="center">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/State%20Abstraction.png" height="400" width="400">
+</div>
 
 An experiment result based on above algorithm is as follows. Due to rigid tensorflow, the size of problem cannot be enlarged.
 
-![Experiment Result](https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png)
+<div align="center">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="400">
+</div>
