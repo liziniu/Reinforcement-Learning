@@ -7,7 +7,7 @@ However, we can refute that directly represent state can be redundant from the p
 Therefore, based on the generative model of markov transition model, we can abstract state from perspective of probability. Specifically, we can transfer probability state space into low-dimension Euclidean space, upon which close data can be clustered into single class. This is inspired by the [t-SNE](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf).
 
 <div align="center">
-   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Loss%20Function.png" height="200" width="400">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Loss%20Function.png" height="150" width="500">
   <p> Loss Function </p>
 </div>
 
