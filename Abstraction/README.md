@@ -14,11 +14,11 @@ Therefore, based on the generative model of markov transition model, we can abst
 Here is an illustrative example with five states that transition probabilities are given. We can abstract these states into two new states.
 
 <div align="center">
-   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/State%20Abstraction.png" height="400" width="400">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/State%20Abstraction.png" height="400" width="500">
 </div>
 
 An experiment result based on above algorithm is as follows. Due to rigid tensorflow, the size of problem cannot be enlarged.
 
 <div align="center">
-   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="400">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="500">
 </div>
