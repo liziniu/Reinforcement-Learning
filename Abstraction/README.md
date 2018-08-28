@@ -17,7 +17,7 @@ Here is an illustrative example with five states that transition probabilities a
    <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/State%20Abstraction.png" height="400" width="500">
 </div>
 
-An experiment result based on above algorithm is as follows. Due to rigid tensorflow, the size of problem cannot be enlarged.
+An experiment result based on above algorithm is as follows. In the future, I will enlarge the size of problem.
 
 <div align="center">
    <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="500">
