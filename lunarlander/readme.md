@@ -8,7 +8,7 @@ Motived from [self-paced learning](https://papers.nips.cc/paper/5568-self-paced-
 
 
 <div align="center">
-  <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/lunarlander/pic/example.png" height="500" width="500">
+  <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/lunarlander/pic/example.png" height="500" width="400">
 </div>
 
 
