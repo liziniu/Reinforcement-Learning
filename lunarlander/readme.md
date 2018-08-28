@@ -6,7 +6,7 @@ However, it is a fact that approximate value function cannot converge theoretica
 
 Motived from [self-paced learning](https://papers.nips.cc/paper/5568-self-paced-learning-with-diversity), a training regime that learning from easy samples to complex samples, the oscillation and overestimate can be alleviated. 
 
-The following is an experiment result, showing that PER, sensitive to random seed, may be worse than original deep q-learning and self-paced deep q-learning is more robust.
+The following is an experiment result based on gym, showing that PER, sensitive to random seed, may be worse than original deep q-learning and self-paced deep q-learning is more robust.
 
 <div align="center">
   <img src="https://github.com/liziniu/reinforcement_learning/blob/master/lunarlander/pic/6431523955071_.pic_hd.png" height="300" width="500">
