@@ -25,5 +25,5 @@ An experiment is done by the following transition probability matrix, showing th
                        [0.1, 0.1, 0.7, 0.1]])
 
 <div align="center">
-   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="500">
+   <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/result.png" height="400" width="500">
 </div>
