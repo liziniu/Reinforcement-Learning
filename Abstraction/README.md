@@ -17,7 +17,12 @@ Here is an illustrative example with five states that transition probabilities a
    <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/State%20Abstraction.png" height="400" width="500">
 </div>
 
-An experiment result based on above algorithm is as follows. In the future, I will enlarge the size of problem.
+An experiment is done by the following transition probability matrix, showing that state_1 and state_2 are probabilisticly similar and state_3 and state_4 are pobabilisticly similar as the matrix indicates.
+
+      t_p = np.array([[0.1, 0.8, 0.05, 0.05],
+                      [0.8, 0.1, 0.05, 0.05],
+                      [0.05, 0.05, 0.1, 0.8],
+                       [0.1, 0.1, 0.7, 0.1]])
 
 <div align="center">
    <img src="https://github.com/liziniu/Reinforcement-Learning/blob/master/Abstraction/img/Result.png" height="400" width="500">
