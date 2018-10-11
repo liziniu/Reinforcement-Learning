@@ -17,7 +17,7 @@ def solve_linprog(normal_flow, total_flow, upper_bound=130000):
     for x, y in zip(normal_flow, total_flow):
         c = - x / sum(x)
         A = y
-        res = op.linprog(c, A, upper_bound, bounds=bounds)
+        res = op.linprog(c, A, upper_bound/7000.0/1.001, bounds=bounds)
         if res.success:
             actions.append(res.x)
         else:
